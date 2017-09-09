@@ -1,0 +1,33 @@
+{
+  "name": "udemycurso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "production": "pm2 start loader.js --name udemycurso"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fhugoduarte/UdemyCurso.git"
+  },
+  "author": "Francisco Hugo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fhugoduarte/UdemyCurso/issues"
+  },
+  "homepage": "https://github.com/fhugoduarte/UdemyCurso#readme",
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-query-int": "^1.0.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.10",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^2.6.1"
+  }
+}
