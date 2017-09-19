@@ -10,8 +10,8 @@ function getSummary(req, res){
 	},{
 		$group: {
 			_id: null,
-			credit: {$sum: "credit"},
-			debt: {$sum: "debt"}
+			credit: {$sum: "$credit"},
+			debt: {$sum: "$debt"}
 		}
 	},{
 		$project: {
