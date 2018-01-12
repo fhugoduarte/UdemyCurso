@@ -17,13 +17,13 @@ Sistema simples para controle de finanças. Este projeto foi feito para estudo d
     ````
     <i>Entre no diretório FrontEnd e execute o mesmo comando para instalar as dependências.</i>  
    
-2. Para executar o <b>BackEnd</b>, dentro do diretrio BackEnd execute o seguinte comando:
+2. Para executar o <b>BackEnd</b>, dentro do diretório BackEnd execute o seguinte comando:
 
    ```shell
     pm2 start loader.js --name udemycurso
     ````
     
-3. Para executar o <b>FrontEnd</b>, dentro do diretrio FrontEnd execute o seguinte comando:
+3. Para executar o <b>FrontEnd</b>, dentro do diretório FrontEnd execute o seguinte comando:
 
    ```shell
     gulp --production
