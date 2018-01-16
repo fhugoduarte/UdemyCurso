@@ -28,12 +28,3 @@ Sistema simples para controle de finanças. Este projeto foi feito para estudo d
    ```shell
     gulp --production
     ````
-   ---
-   
-#### Tecnologias Utilizadas no Desenvolvimento:
-   
-<p align="center">
-  <img src="https://www.worksonarm.com/wp-content/uploads/2017/08/MongoDB-logo.png" width="100"/>
-  <img src="https://angular.io/assets/images/logos/angularjs/AngularJS-Shield.svg" width="100"/>
-  <img src="https://www.abeautifulsite.net/uploads/2016/04/nodejs.png?width=600&key=e29b3acd7da48dbe62199ba284591dc6e8abd8cb9ce286f5cf89b53a494a9b39" width="100"/>
-</p>
